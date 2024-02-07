@@ -1,0 +1,265 @@
+.NavbarItems {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(29, 28, 28); */
+  /* background-color: transparent; */
+  align-items: center;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  padding: 40px 30px;
+  height: 50px;
+  width: 90%;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: bold;
+}
+.logo {
+  /* color: rgb(211, 49, 9); */
+  color: rgb(78, 51, 11);
+  cursor: pointer;
+  justify-self: start;
+  height: 200px;
+}
+
+.logo__footer {
+  fill: rgb(78, 51, 11);
+}
+
+.fa-react {
+  padding-right: 2px;
+}
+.logo:hover {
+  padding-left: 5px;
+}
+.MenuItems {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.navLinks {
+  text-decoration: none;
+  /* color: rgb(211, 49, 9); */
+  color: rgb(78, 51, 11);
+  padding: 10px 12px;
+}
+.navLinks i {
+  padding-right: 10px;
+}
+.navLinks:hover {
+  background-color: rgb(221, 157, 74);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.icon {
+  color: rgb(211, 49, 9);
+  cursor: pointer;
+}
+.HamburgerCrossIcons {
+  display: none;
+}
+.nav-button {
+  padding: 12px;
+  /* background-color: rgb(211, 49, 9); */
+  background-color: #4e330b;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c48636;
+  transition: 0.9s;
+  border-radius: 10px;
+  border: 0.1px solid rgb(0, 0, 0);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 28px;
+  border-radius: 10px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #4e330b;
+  transition: 0.9s;
+}
+
+.sun svg {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+.moon svg {
+  fill: #73c0fc;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+/* .switch:hover */
+/* .sun svg {
+  animation: rotate 15s linear infinite;
+} */
+
+.input:checked + .slider {
+  background-color: #f0b569;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+@media screen and (max-width: 850px) {
+  .NavbarItems {
+    z-index: 99;
+  }
+  .MenuItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*background-color: rgba(700, 225, 15, 0.55);*/
+    background-color: #f4bf96;
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    align-items: stretch;
+    top: 0;
+    left: -120%;
+    padding: 50px 0 40px 0;
+    margin: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .MenuItems.active {
+    left: 0%;
+  }
+  .navLinks {
+    display: block;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .HamburgerCrossIcons {
+    display: block;
+  }
+  .navButton {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .NavbarItems {
+    z-index: 99;
+    width: 80%;
+  }
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 10px;
+  color: #4e330b;
+  text-shadow: 1px 1px #382507;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 2px black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 17px;
+  /* background-color: hsl(49deg 98% 60%); */
+  background-color: bisque;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+}
+
+.connect:active {
+  transform: scale(1);
+  transition: all 100ms ease;
+  box-shadow: 3px 3px 3px 3px;
+  top: 5px;
+  left: 5px;
+}
+
+.connect svg {
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.play {
+  transition: all 0.5s ease;
+  transition-delay: 300ms;
+}
+
+.connect:hover svg {
+  transform: scale(3) translate(75%);
+}
+
+.now {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.connect:hover .now {
+  transform: translateX(20px);
+  transition-delay: 300ms;
+}
+
+.connect:hover .play {
+  transform: translateX(200%);
+  transition-delay: 300ms;
+}

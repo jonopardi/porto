@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "title": "Situs Penentuan Dosen Pembimbing Skripsi (SPDPS)",
+    "url": "https://spdps.site",
+    "images": [
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707119439/g0i9qicoalb1jm5p9mlc.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707119464/sqmwzgyfc4m9rrdevc3n.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707119465/jpsf9i9wbt2owpoln9xq.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707119813/avtkv2qtv4hkiw9q3yvq.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707119814/uiuvx53dn1zxinvwggeq.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707119814/jm81e0uld3opcwdwvzih.png"
+    ],
+    "description": {
+      "en": "This is my Thesis project. SPDPS is designed to determine thesis supervisors for students in a college using the Profile Matching Algorithm. To initiate the determination process, the student (user) logs into the site. If the account hasn't been verified yet, the student has to verify the account by clicking the verify button in the email sent to them. Once the student is logged in, they complete their profile and choose the thesis topic. After completing the profile and selecting a topic, the user can upload the proposal. Once the proposal is uploaded, the student will be matched with supervisors who have the best assessment and are aligned with the chosen topic. \n To log in as an admin, use this username and password adminSpdps/spdps123.",
+      "id": "SPDPS merupakan hasil proyek skripsi milik saya. SPDPS bertujuan untuk menentukan dosen pembimbing skripsi bagi mahasiswa dengan menggunakan algoritma Profile Matching. Algoritma Profile Matching menentukan dosen pembimbing dengan menghitung Core Factor dan Secondary Factor. Agar mahasiswa mendapatkan dosen pembimbing, mahasiswa log in ke SPDPS. Jika akun mahasiswa belum diverifikasi maka mahasiswa harus melakukan verifikasi melalui email yang dikirimkan ke mahasiswa. Agar dapat mengupload proposal, mahasiswa melengkapi profil dan memilih topil/ minat skripsi terlebih dahulu. Setelah itu mahasiswa dapat langsung mengupload proposal dan setelah propsoal terupload maka mahasiswa akan mendapatkan dosen pembimbing.\n Untuk masuk sebagai admin gunakan username dan password ini adminSpdps/spdps123"
+    },
+    "key_features": [
+      "get supervisors",
+      "Upload proposal",
+      "Admin Dashboard to manage supervisors, student, topics",
+      "Profile page",
+      "Role Based Authorization"
+    ],
+    "features": [
+      "Create",
+      "Read",
+      "Update",
+      "Delete",
+      "Filter",
+      "Search",
+      "Sort",
+      "Login",
+      "Verify email",
+      "Email to reset password"
+    ],
+    "built_with": ["React JS, Express JS, Mongo DB,Firebase"]
+  },
+  {
+    "id": 2,
+    "title": "Job Vacancy",
+    "url": "https://job-vacancy-dionisius.netlify.app",
+    "images": [
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120176/xuv17ifphic6myynxonl.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120178/mqmsmskyqfz2xj2xmueq.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120178/ebvp67cg5zbjlc0r0lk4.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120178/wdurtvzbodvkumbqiatv.png"
+    ],
+    "description": {
+      "en": "Job Vacancy is a site that provides information about jobs.",
+      "id": "Job Vacancy merupakan situs web yang menyediakan informasi-informasi mengenai pekerjaan yang tersedia."
+    },
+    "key_features": [
+      "Search jobs",
+      "Filter jobs",
+      "Admin Dashboard to manage added jobs"
+    ],
+    "features": ["Create", "Read", "Update", "Delete", "Filter", "Search"],
+    "built_with": ["React JS"]
+  },
+  {
+    "id": 3,
+    "title": "Learning App",
+    "url": "https://learningappnew.netlify.app/",
+    "images": [
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120502/ha7s0vmi3ebe8g4vlumr.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120537/sm8dhirvhbsbremjm6nv.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120538/uaqqs1sihcqyyxci21i2.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120539/eqs6ubgoan42gf9orj9a.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120542/kybs8e4mwgxnxnf4qpek.png"
+    ],
+    "description": {
+      "en": "Learning App provides informations about webinars and podcasts. User is able to find their desired topic.The site not only facilitates the exploration of topics but also enables users to mark their favorite webinars and podcasts. This web app is the result of Capstone project during Independent Study held by Ministry of Education, Culture, Research, and Technology and facilitated by Dicoding",
+      "id": "Learning App memberikan informasi-informasi mengenai webinar dan podcast. Fitur filter berdasarkan tema/ topik memudahkan pengguna untuk menemukan webinar dan podcast yang diinginkan. Pengguna juga dapat menyukai dan menyimpan webinar dan podcast. Situs ini merupakan hasil Capstone ketika Studi Independen Bersertifikat yang difasilitasi Dicoding"
+    },
+    "key_features": [
+      "Like (save) webinars/ podcasts",
+      "Dislike webinars/ podcasts",
+      "Filter webinars/ podcasts",
+      "Admin Dashboard to manage webinars and podcasts",
+      "Role Based Authorization"
+    ],
+    "features": ["Create", "Read", "Update", "Delete", "Filter"],
+    "built_with": ["React JS, Express JS"]
+  },
+  {
+    "id": 4,
+    "title": "Notes App",
+    "url": "https://personal-notes-reactjs.netlify.app/",
+    "images": [
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120908/j6lgm8fvbpaggmpecchj.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120915/ezinwjeivuxzlj4yyuyl.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120916/svfqvadqq3d2rj24qli2.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707120917/jghon435hpm1g0cjpoqv.png"
+    ],
+    "description": {
+      "en": "Notes App facilitates easy note creation with a title and details section, enabling users to organize and store information efficiently. It includes an Archive feature for decluttering, allowing users to temporarily remove notes from the main list, and an Unarchive feature to retrieve them when needed.",
+      "id": "Notes App memungkinkan pengguna membuat catatan dengan mudah. Pengguna dapat mengorganisir catatan-catatan menjadi 2 bagian, yaitu catatan yang masih aktif dan arsip. Ketika catatan yang lama yang sudah jarang dilihat, pengguna dapat memasukkannya ke dalam arsip."
+    },
+    "key_features": [
+      "Archive notes",
+      "Unarchive notes",
+      "Change language",
+      "Change theme",
+      "Login",
+      "Register"
+    ],
+    "features": ["Create", "Read", "Update", "Delete", "Filter", "Search"],
+    "built_with": ["React JS"]
+  },
+  {
+    "id": 5,
+    "title": "Product Spec",
+    "url": "https://product-spec.netlify.app",
+    "images": [
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707127383/cknfcasqqqxvamgwb0hm.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707127396/ccqicy3kqoibkbrbksxo.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707127398/fgb4r3riqq1ttlsp4z6w.png",
+      "https://res.cloudinary.com/dyg40ju7w/image/upload/v1707127399/wnhe6uhs6a090oh1kaar.png"
+    ],
+    "description": {
+      "en": "While I was on an internship at PT.HIT, this website is the result of my internship, comprising 30 days of work. Product Spec is a web app to record product data. There are 2 roles in this site, R&D and Production. The R&D division uploads future product data, and then the production team can view the details of the upcoming products (There's no real data here, only dummies!).",
+      "id": "Situs Product Spec merupakan hasil dari proyek ketika melakukan kerja praktik di PT.HIT selama 30 hari kerja. Situs ini berguna untuk mencatat data-data produk. Terdapat 2 role di dalam situs ini, yaitu R&D dan produksi. Divisi R&D mengupload data calon produk dan divisi produksi dapat melihat detail-detail produk (Situs ini tidak menggunakan data sesungguhnya!)."
+    },
+    "key_features": [
+      "Export data to PDF",
+      "Role Based Authorization",
+      "Dynamically add field input"
+    ],
+    "features": [
+      "Create",
+      "Read",
+      "Update",
+      "Delete",
+      "Filter",
+      "Search",
+      "Sort"
+    ],
+    "built_with": ["React JS, Express JS, Mongo DB"]
+  }
+]

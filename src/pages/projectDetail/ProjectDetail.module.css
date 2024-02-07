@@ -1,0 +1,204 @@
+.wrap {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: bisque;
+  /* border: 1px solid #dddddd; */
+  overflow: auto;
+  /* position: relative; */
+  scroll-snap-type: y mandatory;
+}
+.content__container {
+  /* height: 30%; */
+  scroll-snap-align: start;
+  height: fit-content;
+}
+.contentOuter__container {
+  width: 100%;
+  min-height: 100vh;
+}
+.landingName__container {
+  padding-bottom: 15px;
+}
+
+.images__container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: auto;
+  gap: 10px;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.img_wrap {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #eee;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.img_wrap img {
+  /* width: 70px;
+  height: 70px; */
+
+  /* max-width: 100%; */
+  max-height: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actived {
+  overflow: hidden;
+  border: 3px solid #f8ad3c;
+}
+.selected__imageContainer {
+  aspect-ratio: 16/9;
+  /* width: 100%; */
+  /* width: 60%; */
+  height: 500px;
+  /* height: 10%; */
+  margin: 0 auto;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  /* border: 0.2px solid gray;
+  overflow: hidden; */
+}
+.selected__image {
+  /* max-width: 100%; */
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.body__container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project__title {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.project__detail {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.btn__group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 400px; */
+}
+
+.btn__group > button {
+  /* flex: 1; */
+  margin-top: 40px;
+  width: 300px;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.btn__redirect {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: bisque;
+  --button_outline_color: rgb(78, 51, 11);
+  /* font-size: 17px; */
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  height: 50px;
+  min-height: 60px;
+}
+.btn__redirect:hover .btn__text {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+}
+.btn__text {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1150px) {
+  /* .content__container {
+    height: 50%;
+  } */
+  .landingName__container {
+    /* height: inherit; */
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 85px;
+    /* background-color: bisque; */
+    height: 100%;
+    /* padding-bottom: 55px; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  /* .content__container {
+    height: 65%;
+    height: fit-content;
+  } */
+  .landingName__container {
+    /* height: inherit; */
+    /* margin-top: 85px; */
+    padding-top: 85px;
+    /* background-color: bisque; */
+    height: 100%;
+    /* padding-bottom: 55px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .selected__imageContainer {
+    height: 200px;
+  }
+  .btn__text {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .landingName__container {
+    padding-top: 110px !important;
+  }
+}
